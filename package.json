@@ -1,0 +1,25 @@
+{
+  "name": "googleworkspace",
+  "version": "1.0.0",
+  "description": "google workspace  with qarrirgenerator",
+  "homepage": "https://github.com/n3mr1d/googleworkspace#readme",
+  "bugs": {
+    "url": "https://github.com/n3mr1d/googleworkspace/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n3mr1d/googleworkspace.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
+    "googleapis": "^166.0.0",
+    "xlsx": "^0.18.5"
+  }
+}

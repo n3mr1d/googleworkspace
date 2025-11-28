@@ -1,0 +1,490 @@
+[
+  {
+    "timestamp": "2025-11-27T07:26:42.912Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "Osama",
+    "messageId": "19ac4350d2a4e799"
+  },
+  {
+    "timestamp": "2025-11-27T07:26:44.668Z",
+    "type": "success",
+    "email": "brainfreeze289@gmail.com",
+    "nama": "Yulistina",
+    "messageId": "19ac435152f9f1f6"
+  },
+  {
+    "timestamp": "2025-11-27T07:33:19.001Z",
+    "type": "fatal_error",
+    "error": "group is not defined",
+    "stack": "ReferenceError: group is not defined\n    at create (/home/idrift/Project/github/googleworkspace/index.js:210:67)\n    at EmailSender.sendBulk (/home/idrift/Project/github/googleworkspace/index.js:458:26)\n    at main (/home/idrift/Project/github/googleworkspace/index.js:528:34)"
+  },
+  {
+    "timestamp": "2025-11-27T07:34:15.197Z",
+    "type": "fatal_error",
+    "error": "group is not defined",
+    "stack": "ReferenceError: group is not defined\n    at create (/home/idrift/Project/github/googleworkspace/index.js:210:67)\n    at EmailSender.sendBulk (/home/idrift/Project/github/googleworkspace/index.js:458:26)\n    at main (/home/idrift/Project/github/googleworkspace/index.js:528:34)"
+  },
+  {
+    "timestamp": "2025-11-27T07:39:43.570Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "Osama",
+    "messageId": "19ac440f736183e6"
+  },
+  {
+    "timestamp": "2025-11-27T07:39:45.346Z",
+    "type": "success",
+    "email": "brainfreeze289@gmail.com",
+    "nama": "Yulistina",
+    "messageId": "19ac440fd47069fe"
+  },
+  {
+    "timestamp": "2025-11-27T07:53:53.230Z",
+    "type": "success",
+    "email": "merinalkpm@gmail.com",
+    "nama": "Merina",
+    "messageId": "19ac44dec1486040"
+  },
+  {
+    "timestamp": "2025-11-27T07:53:54.992Z",
+    "type": "success",
+    "email": "tiarafitrida@gmail.com",
+    "nama": "Tiara",
+    "messageId": "19ac44df5034fc9f"
+  },
+  {
+    "timestamp": "2025-11-27T07:53:56.709Z",
+    "type": "success",
+    "email": "davilarubiantiarun@gmail.com",
+    "nama": "Davila",
+    "messageId": "19ac44dfbb7f4b5b"
+  },
+  {
+    "timestamp": "2025-11-27T07:53:58.460Z",
+    "type": "success",
+    "email": "afnimahiya@gmail.com",
+    "nama": "Nur Afni",
+    "messageId": "19ac44e031e8da6b"
+  },
+  {
+    "timestamp": "2025-11-27T07:54:00.423Z",
+    "type": "success",
+    "email": "eshaadhisenos@gmail.com",
+    "nama": "Esha",
+    "messageId": "19ac44e092dda612"
+  },
+  {
+    "timestamp": "2025-11-27T07:54:02.164Z",
+    "type": "success",
+    "email": "gagaspragmawiguno@gmail.com",
+    "nama": "Gagas",
+    "messageId": "19ac44e1039fbe3e"
+  },
+  {
+    "timestamp": "2025-11-27T07:54:03.922Z",
+    "type": "success",
+    "email": "irandikav@gmail.com",
+    "nama": "Prawira",
+    "messageId": "19ac44e171c1b5fc"
+  },
+  {
+    "timestamp": "2025-11-27T10:26:14.534Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "Osama",
+    "messageId": "19ac4d96831e5081"
+  },
+  {
+    "timestamp": "2025-11-27T10:26:16.312Z",
+    "type": "success",
+    "email": "brainfreeze289@gmail.com",
+    "nama": "Gabriel ",
+    "messageId": "19ac4d9707fd42c6"
+  },
+  {
+    "timestamp": "2025-11-27T10:39:35.975Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "osama.work54@gmail.com",
+    "messageId": "19ac4e5a55651281"
+  },
+  {
+    "timestamp": "2025-11-27T10:39:37.986Z",
+    "type": "success",
+    "email": "brainfreeze289@gmail.com",
+    "nama": "Gabriel",
+    "messageId": "19ac4e5aa51f652b"
+  },
+  {
+    "timestamp": "2025-11-27T10:57:06.550Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "Osama",
+    "messageId": "19ac4f5add88bdc2"
+  },
+  {
+    "timestamp": "2025-11-27T11:25:13.854Z",
+    "type": "success",
+    "email": "brainfreeze289@gmail.com",
+    "nama": "Gabriel",
+    "messageId": "19ac50f6a7797244"
+  },
+  {
+    "timestamp": "2025-11-27T11:27:01.527Z",
+    "type": "success",
+    "email": "jimmy.setiawan86@gmail.com",
+    "nama": "Jimmy Setiawan",
+    "messageId": "19ac511118aba6a3"
+  },
+  {
+    "timestamp": "2025-11-27T11:27:03.405Z",
+    "type": "success",
+    "email": "malikarintya12@gmail.com",
+    "nama": "Malika Ade Arintya",
+    "messageId": "19ac51117d31363d"
+  },
+  {
+    "timestamp": "2025-11-27T11:27:05.234Z",
+    "type": "success",
+    "email": "adit123adit123@gmail.com",
+    "nama": "Aditya  Irdam",
+    "messageId": "19ac5111f4bf9a04"
+  },
+  {
+    "timestamp": "2025-11-27T11:27:07.080Z",
+    "type": "success",
+    "email": "fazarizqi77@gmail.com",
+    "nama": "Faza Rizqi Ihsan",
+    "messageId": "19ac511248b08ccd"
+  },
+  {
+    "timestamp": "2025-11-27T11:27:08.892Z",
+    "type": "success",
+    "email": "soranatascincinadi@gmail.com",
+    "nama": "Sorantas  Cincinadi",
+    "messageId": "19ac5112cd73bbb2"
+  },
+  {
+    "timestamp": "2025-11-27T11:27:10.714Z",
+    "type": "success",
+    "email": "bepekerja@gmail.com",
+    "nama": "Bintang  Pamungkas",
+    "messageId": "19ac511357915475"
+  },
+  {
+    "timestamp": "2025-11-27T11:27:12.615Z",
+    "type": "success",
+    "email": "mirzasufikusuma@gmail.com",
+    "nama": "Mirza Sufi Kusuma",
+    "messageId": "19ac5113aeabba5e"
+  },
+  {
+    "timestamp": "2025-11-27T11:27:14.481Z",
+    "type": "success",
+    "email": "angelshroom666@gmail.com",
+    "nama": "Anggara",
+    "messageId": "19ac51142958c105"
+  },
+  {
+    "timestamp": "2025-11-27T11:27:16.292Z",
+    "type": "success",
+    "email": "edikresnha@gmail.com",
+    "nama": "Edi Krisna",
+    "messageId": "19ac511484a4b8fd"
+  },
+  {
+    "timestamp": "2025-11-27T11:42:23.826Z",
+    "type": "success",
+    "email": "mirzasufikusuma@gmail.com",
+    "nama": "Mirza Sufi Kusuma",
+    "messageId": "19ac51f22be0c41c"
+  },
+  {
+    "timestamp": "2025-11-27T11:42:25.587Z",
+    "type": "success",
+    "email": "angelshroom666@gmail.com",
+    "nama": "Anggara",
+    "messageId": "19ac51f284b4a715"
+  },
+  {
+    "timestamp": "2025-11-27T11:42:27.535Z",
+    "type": "success",
+    "email": "edikresnha@gmail.com",
+    "nama": "Edi Krisna",
+    "messageId": "19ac51f31f8c84d4"
+  },
+  {
+    "timestamp": "2025-11-28T10:46:15.407Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "Osama",
+    "messageId": "19aca12198aaedda"
+  },
+  {
+    "timestamp": "2025-11-28T10:46:17.362Z",
+    "type": "success",
+    "email": "brainfreeze289@gmail.com",
+    "nama": "Yulistina",
+    "messageId": "19aca1221fa9c9a3"
+  },
+  {
+    "timestamp": "2025-11-28T11:00:51.883Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "Osama",
+    "messageId": "19aca1f79c254c9d"
+  },
+  {
+    "timestamp": "2025-11-28T11:00:53.651Z",
+    "type": "success",
+    "email": "brainfreeze289@gmail.com",
+    "nama": "Yulistina",
+    "messageId": "19aca1f7ffc33ae4"
+  },
+  {
+    "timestamp": "2025-11-28T11:27:00.969Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "John Doe",
+    "messageId": "19aca376b6e6e800"
+  },
+  {
+    "timestamp": "2025-11-28T11:27:02.774Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "Amira Putri",
+    "messageId": "19aca37703a6552a"
+  },
+  {
+    "timestamp": "2025-11-28T11:27:04.581Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "Budi Santoso",
+    "messageId": "19aca3779d18fad9"
+  },
+  {
+    "timestamp": "2025-11-28T11:27:06.614Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "Fiona Aulia",
+    "messageId": "19aca377f2e20172"
+  },
+  {
+    "timestamp": "2025-11-28T11:31:42.480Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "John Doe",
+    "messageId": "19aca3bb44cc5270"
+  },
+  {
+    "timestamp": "2025-11-28T11:31:44.320Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "Amira Putri",
+    "messageId": "19aca3bbcbce9b5e"
+  },
+  {
+    "timestamp": "2025-11-28T11:36:36.571Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "John Doe",
+    "messageId": "19aca4033ae2a88d"
+  },
+  {
+    "timestamp": "2025-11-28T11:36:38.618Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "Amira Putri",
+    "messageId": "19aca40380e9f9e0"
+  },
+  {
+    "timestamp": "2025-11-28T11:46:53.632Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "John Doe",
+    "messageId": "19aca499d739d296"
+  },
+  {
+    "timestamp": "2025-11-28T11:46:55.628Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "Amira Putri",
+    "messageId": "19aca49a54c5e978"
+  },
+  {
+    "timestamp": "2025-11-28T11:46:57.727Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "Budi Santoso",
+    "messageId": "19aca49adddb417f"
+  },
+  {
+    "timestamp": "2025-11-28T11:46:59.782Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "Fiona Aulia",
+    "messageId": "19aca49b5e066c47"
+  },
+  {
+    "timestamp": "2025-11-28T11:49:51.004Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "John Doe",
+    "messageId": "19aca4c50e747c14"
+  },
+  {
+    "timestamp": "2025-11-28T12:20:35.040Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "John Doe",
+    "messageId": "19aca6874e184b2b"
+  },
+  {
+    "timestamp": "2025-11-28T12:20:37.087Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "Amira Putri",
+    "messageId": "19aca687df1bcac3"
+  },
+  {
+    "timestamp": "2025-11-28T12:20:39.188Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "Budi Santoso",
+    "messageId": "19aca68848e3f9c4"
+  },
+  {
+    "timestamp": "2025-11-28T12:20:41.395Z",
+    "type": "success",
+    "email": "osama.work54@gmail.com",
+    "nama": "Fiona Aulia",
+    "messageId": "19aca688c7ba6635"
+  },
+  {
+    "timestamp": "2025-11-28T12:28:36.344Z",
+    "type": "success",
+    "email": "jimmy.setiawan86@gmail.com",
+    "nama": "Jimmy Setiawan",
+    "messageId": "19aca6fcd3b46fcc"
+  },
+  {
+    "timestamp": "2025-11-28T12:28:38.362Z",
+    "type": "success",
+    "email": "malikarintya12@gmail.com",
+    "nama": "Malika Ade Arintya",
+    "messageId": "19aca6fd5a142278"
+  },
+  {
+    "timestamp": "2025-11-28T12:28:40.532Z",
+    "type": "success",
+    "email": "adit123adit123@gmail.com",
+    "nama": "Aditya Irdam",
+    "messageId": "19aca6fdd9be7667"
+  },
+  {
+    "timestamp": "2025-11-28T12:28:42.522Z",
+    "type": "success",
+    "email": "fazarizqi77@gmail.com",
+    "nama": "Faza Rizqi Ihsan",
+    "messageId": "19aca6fe4d0d1e5c"
+  },
+  {
+    "timestamp": "2025-11-28T12:28:44.522Z",
+    "type": "success",
+    "email": "soranatascincinadi@gmail.com",
+    "nama": "Sorantas Cincinadi",
+    "messageId": "19aca6fedc934c14"
+  },
+  {
+    "timestamp": "2025-11-28T12:28:46.563Z",
+    "type": "success",
+    "email": "bepekerja@gmail.com",
+    "nama": "Bintang Pamungkas",
+    "messageId": "19aca6ff5bfa62e8"
+  },
+  {
+    "timestamp": "2025-11-28T12:28:48.617Z",
+    "type": "success",
+    "email": "mirzasufikusuma@gmail.com",
+    "nama": "Mirza Sufi Kusuma",
+    "messageId": "19aca6ffd1214924"
+  },
+  {
+    "timestamp": "2025-11-28T12:28:50.841Z",
+    "type": "success",
+    "email": "angelshroom666@gmail.com",
+    "nama": "Anggara",
+    "messageId": "19aca7005fdb642b"
+  },
+  {
+    "timestamp": "2025-11-28T12:28:52.980Z",
+    "type": "success",
+    "email": "edikresnha@gmail.com",
+    "nama": "Edi Krisna",
+    "messageId": "19aca700df63b117"
+  },
+  {
+    "timestamp": "2025-11-28T12:31:17.505Z",
+    "type": "success",
+    "email": "jimmy.setiawan86@gmail.com",
+    "nama": "Jimmy Setiawan",
+    "messageId": "19aca7243b6e0b41"
+  },
+  {
+    "timestamp": "2025-11-28T12:31:19.638Z",
+    "type": "success",
+    "email": "malikarintya12@gmail.com",
+    "nama": "Malika Ade Arintya",
+    "messageId": "19aca724a4f21494"
+  },
+  {
+    "timestamp": "2025-11-28T12:31:21.600Z",
+    "type": "success",
+    "email": "adit123adit123@gmail.com",
+    "nama": "Aditya Irdam",
+    "messageId": "19aca72533865c78"
+  },
+  {
+    "timestamp": "2025-11-28T12:31:23.649Z",
+    "type": "success",
+    "email": "fazarizqi77@gmail.com",
+    "nama": "Faza Rizqi Ihsan",
+    "messageId": "19aca7259784cd16"
+  },
+  {
+    "timestamp": "2025-11-28T12:31:25.903Z",
+    "type": "success",
+    "email": "soranatascincinadi@gmail.com",
+    "nama": "Sorantas Cincinadi",
+    "messageId": "19aca7262fb96965"
+  },
+  {
+    "timestamp": "2025-11-28T12:31:27.949Z",
+    "type": "success",
+    "email": "bepekerja@gmail.com",
+    "nama": "Bintang Pamungkas",
+    "messageId": "19aca726b9f67962"
+  },
+  {
+    "timestamp": "2025-11-28T12:31:30.001Z",
+    "type": "success",
+    "email": "mirzasufikusuma@gmail.com",
+    "nama": "Mirza Sufi Kusuma",
+    "messageId": "19aca72732e4d4e4"
+  },
+  {
+    "timestamp": "2025-11-28T12:31:32.045Z",
+    "type": "success",
+    "email": "angelshroom666@gmail.com",
+    "nama": "Anggara",
+    "messageId": "19aca727aedec052"
+  },
+  {
+    "timestamp": "2025-11-28T12:31:34.097Z",
+    "type": "success",
+    "email": "edikresnha@gmail.com",
+    "nama": "Edi Krisna",
+    "messageId": "19aca72823bb99f7"
+  }
+]

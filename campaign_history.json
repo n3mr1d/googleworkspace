@@ -1,0 +1,58 @@
+[
+  {
+    "timestamp": "2025-11-28T10:46:18.368Z",
+    "session": "HR Mentorship and Interview Simulation Session",
+    "total": 2,
+    "success": 2,
+    "failed": 0
+  },
+  {
+    "timestamp": "2025-11-28T11:00:54.654Z",
+    "session": "HR Mentorship and Interview Simulation Session",
+    "total": 2,
+    "success": 2,
+    "failed": 0
+  },
+  {
+    "timestamp": "2025-11-28T11:24:14.734Z",
+    "session": "Invitation: HR Mentorship and Interview Simulation Session",
+    "total": 0,
+    "success": 0,
+    "failed": 0
+  },
+  {
+    "timestamp": "2025-11-28T11:27:07.620Z",
+    "session": "Invitation: HR Mentorship and Interview Simulation Session",
+    "total": 4,
+    "success": 4,
+    "failed": 0
+  },
+  {
+    "timestamp": "2025-11-28T11:47:00.787Z",
+    "session": "Invitation: HR Mentorship and Interview Simulation Session",
+    "total": 4,
+    "success": 4,
+    "failed": 0
+  },
+  {
+    "timestamp": "2025-11-28T12:20:42.403Z",
+    "session": "Invitation: HR Mentorship and Interview Simulation Session DMC",
+    "total": 4,
+    "success": 4,
+    "failed": 0
+  },
+  {
+    "timestamp": "2025-11-28T12:28:53.996Z",
+    "session": "Invitation: HR Mentorship and Interview Simulation Session DMC",
+    "total": 9,
+    "success": 9,
+    "failed": 0
+  },
+  {
+    "timestamp": "2025-11-28T12:31:35.138Z",
+    "session": "Invitation: HR Mentorship and Interview Simulation Session DMC",
+    "total": 9,
+    "success": 9,
+    "failed": 0
+  }
+]
