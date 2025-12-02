@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>QarirGenerator</title>
+    <title>QarirGenerator - Onboarding Session</title>
     <style>
       /* RESET STYLES */
       body,
@@ -79,7 +79,7 @@
               box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
             "
           >
-            <!-- BANNER SECTION WITH TEXT OVERLAY -->
+            <!-- BANNER SECTION -->
             <tr>
               <td
                 align="center"
@@ -95,8 +95,6 @@
                   height: 100%;
                 "
               >
-                <!-- Fallback untuk Outlook versi desktop (VML) bisa ditambahkan jika perlu, namun ini standard modern client -->
-
                 <h1
                   style="
                     color: #ffffff;
@@ -108,12 +106,13 @@
                     line-height: 1.2;
                   "
                 >
-                  MENTORSHIP <br />REMINDER
+                  WELCOME TO<br />QARIR GENERATOR
                 </h1>
               </td>
             </tr>
             <!-- END BANNER SECTION -->
 
+            <!-- GREETING SECTION -->
             <tr>
               <td
                 class="mobile-padding"
@@ -126,7 +125,7 @@
                 <h2
                   style="font-size: 22px; margin-bottom: 15px; color: #1f2937"
                 >
-                  Are you ready to level up? 🚀
+                  Your Journey Begins Here 🎯
                 </h2>
                 <p
                   style="
@@ -134,16 +133,42 @@
                     line-height: 1.6;
                     color: #555555;
                     margin-bottom: 0;
+                    text-align: left;
                   "
                 >
-                  Hi <span style="font-weight: bolder">${nama}</span> This is
-                  your exclusive reminder. We are decoding the
-                  <strong>December 2025 Job Market</strong> and setting up your
-                  winning strategy. Don't let this opportunity slip away!
+                  Dear <span style="font-weight: bolder">${nama}</span>,
+                </p>
+                <p
+                  style="
+                    font-size: 16px;
+                    line-height: 1.6;
+                    color: #555555;
+                    margin-top: 15px;
+                    text-align: left;
+                  "
+                >
+                  It is with profound joy and anticipation that we welcome you
+                  to <strong>QarirGenerator</strong>, a place where ambition
+                  meets opportunity, and where every individual is given the
+                  tools to transform potential into achievement.
+                </p>
+                <p
+                  style="
+                    font-size: 16px;
+                    line-height: 1.6;
+                    color: #555555;
+                    margin-top: 15px;
+                    text-align: left;
+                  "
+                >
+                  By choosing to begin your journey with us, you have taken an
+                  important step towards shaping not only your career, but also
+                  your story of global impact.
                 </p>
               </td>
             </tr>
 
+            <!-- EVENT DETAILS -->
             <tr>
               <td style="padding: 10px 20px">
                 <table
@@ -166,80 +191,117 @@
                         width="100%"
                       >
                         <tr>
-                          <td
-                            class="column-stack mobile-center"
-                            align="center"
-                            width="33%"
-                            valign="top"
-                          >
-                            <img
-                              src="https://cdn-icons-png.flaticon.com/512/2693/2693507.png"
-                              alt="Date"
-                              width="32"
-                              style="margin-bottom: 10px"
-                            />
-                            <p
-                              style="
-                                margin: 0;
-                                font-weight: bold;
-                                color: #ff9500;
-                              "
+                          <td class="mobile-padding" style="padding: 25px">
+                            <table
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              width="100%"
                             >
-                              DATE
-                            </p>
-                            <p style="margin: 5px 0 0 0; color: #555">
-                              Mon, 24 Nov
-                            </p>
-                          </td>
-                          <td
-                            class="column-stack mobile-center"
-                            align="center"
-                            width="33%"
-                            valign="top"
-                          >
-                            <img
-                              src="https://cdn-icons-png.flaticon.com/512/2088/2088617.png"
-                              alt="Time"
-                              width="32"
-                              style="margin-bottom: 10px"
-                            />
-                            <p
-                              style="
-                                margin: 0;
-                                font-weight: bold;
-                                color: #ff9500;
-                              "
-                            >
-                              TIME
-                            </p>
-                            <p style="margin: 5px 0 0 0; color: #555">
-                              20.30 WIB
-                            </p>
-                          </td>
-                          <td
-                            class="column-stack mobile-center"
-                            align="center"
-                            width="33%"
-                            valign="top"
-                          >
-                            <img
-                              src="https://cdn-icons-png.flaticon.com/512/9073/9073163.png"
-                              alt="Location"
-                              width="32"
-                              style="margin-bottom: 10px"
-                            />
-                            <p
-                              style="
-                                margin: 0;
-                                font-weight: bold;
-                                color: #ff9500;
-                              "
-                            >
-                              WHERE
-                            </p>
-                            <p style="margin: 5px 0 0 0; color: #555">
-                              Google Meet
-                            </p>
+                              <tr>
+                                <!-- DATE -->
+                                <td
+                                  class="column-stack mobile-center"
+                                  align="center"
+                                  width="33%"
+                                  valign="top"
+                                >
+                                  <img
+                                    width="22"
+                                    style="margin-bottom: 6px"
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACkElEQVR4nO2Yv2/TQBTHLST6X7TpViYYWrNjUx+NaKmqpi0qdGRg5sfAEImJtkhkZcGOE4mSRk1a1KFSnYWECcVCRLLBpgOwUilpxHropRCBYzs55+Ifkr/SVzpdnPfu47xnP4VhYsWKRaySUk2WKtUfZaX6fe/43VzQcYgFCcuVGu5YqX0LOg6xukn/OOg4tvolzIy3ObbY5tlWm7+K/7U1sfXzQV3uG4dtnfFsqXltZorxcPifdklbXG9i2CM9PFkc9hTONDDA+Z23D9a4fKknMeyRAniIUxgcwKZs/lqZnOhJrCQmiAGI43BskwDALXEC7xcPukn3dw9wZTLhAYA8DkMDAH7mw+TNTnJICuvGFW8ldEgYhwoANBokhzsIhrXXJm4QxqECEKSZGICPCICqmziMZmIAPQbAoQDI5Pf+M+19NQbQYwAcagA16k2sRh0gE/USylAGeJEv4ke5bfzg7RN8+80GnpPnO4Y17Em1Av6gfQ4nwOPcczyfTWFeQq5e2VnH11+hpdAA1LUv+J78sO/Beyyi7XQ6fWEoABp+erRFfviuhc1AAeT3u46Hs8rpOk4UFgMpIWhYqOfhAdBJqpAa8x0AnjZu5WGV27WceCPlO8CGfJ8egITyvgMsZFdcD9xPlmbWfW/ipLxAD0BEZ5EG4ETB/v/Sum62RgWwtnOXHoCENHsAzSyNCgBmG1pNzItCzhbgo3YyVdeN01EAwGBG7yk0u8w46ZNhjKu6WVA1s0kTAKbK1dd3hn+RSeir44ts1IKpcuhfIItuMUEKpkre6zAnomdM0IKRmJOELXIAYbPvOO2nOFFY5EVkDHDXjcDLxknTL6cvwmAGsw082+ENC4b1+d7sMlxj9+XfIRmdY/8OZn4AAAAASUVORK5CYII="
+                                    alt="calendar-plus"
+                                  />
+                                  <p
+                                    style="
+                                      margin: 8px 0 0 0;
+                                      font-weight: bold;
+                                      color: #ff9500;
+                                      font-size: 14px;
+                                    "
+                                  >
+                                    DATE
+                                  </p>
+                                  <p
+                                    style="
+                                      margin: 5px 0 0 0;
+                                      color: #555;
+                                      font-size: 14px;
+                                    "
+                                  >
+                                    {{DATE}}
+                                  </p>
+                                </td>
+
+                                <!-- TIME -->
+                                <td
+                                  class="column-stack mobile-center"
+                                  align="center"
+                                  width="33%"
+                                  valign="top"
+                                >
+                                  <img
+                                    width="22"
+                                    style="margin-bottom: 6px"
+                                    src="data:image/png;base64,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"
+                                    alt="time-machine"
+                                  />
+                                  <p
+                                    style="
+                                      margin: 8px 0 0 0;
+                                      font-weight: bold;
+                                      color: #ff9500;
+                                      font-size: 14px;
+                                    "
+                                  >
+                                    TIME
+                                  </p>
+                                  <p
+                                    style="
+                                      margin: 5px 0 0 0;
+                                      color: #555;
+                                      font-size: 14px;
+                                    "
+                                  >
+                                    {{TIME}}
+                                  </p>
+                                </td>
+
+                                <!-- PLATFORM -->
+                                <td
+                                  class="column-stack mobile-center"
+                                  align="center"
+                                  width="33%"
+                                  valign="top"
+                                >
+                                  <img
+                                    width="22"
+                                    style="margin-bottom: 6px"
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADI0lEQVR4nO3Zb0gTcRgH8EUE1es56UW9iuqFd3Ob1iJlG5lu7rfdzRCEkMQ2CQ0NLXpjaqhNKhFCTS0QMSxK78wCGTPusDIdvgnsVcJCNCTNYRqIWzxxLZNy/zw73cV94fvqXtzvw8HD3XMymRQpUqRIEUMgN3e3r07pXGUx9z8vg1GrDHYVRrT7BEdMa1O754tVk34WA8HKJI3BuGaPoIiZk6mwUKFaEhTCYhBg8Lzwh5HtstBEgZkm0nkjuPquqQVF+IO9GeosaADtRxT5FNEkmCnSyxuxfZCkW3+fJavPdsBMEx4OESzxmTdipyAmmsAQTXxcR8QICYfYCQiiSBOiyMU/ETFAIiG2G2KmyDIzTXzfiIgCiYb4ObXK1ctCQ74x2B0zRbaEBkSBxILg+qU8bVZIxLwbh9JH+onIiAiQrpzLba+yzk65ss/5BiyFgX6rHdb63FKwMmTMm/Pk5C9Mt1dC4J2DV/3DKRER3kEcrE4V2O7r53lDDjZMew81zEC01jOLwDf+0aywiPFnStDVqgG/rgZjm2FJlJC+HiVoqoMIroYWvV9UkFUGg+ZO5W8A/qtpzXoQDeTrSwzK7iZvQOBignxyYZB3WxUSgYsF8v4FDpn14RG4GCAuWgfHa8IDcLFAbD25oKzWiB9S6CqCzJ5sUNemih+CaBJMTyyQ0qAVPwRxX3i9BGgbT4kfgrhSJKS3Gv4DCB2s4UEGKKvWh0Bai8EvSgjXMw9NkHwjOATS753m/9KYWPxmWFEyMqW4NOpLLB0LJJZ6YK2K0rEVRcnbuSNXPAsXe4ag8nU1r+YM5EY8nPExAk3dCdB1ZPB/jZfbWW+Cg4Vo1Tg7ZqPfhH+ze62Q0W2cEBySVNe0LCQEcZh+K/9P3VghuLNRUATiRjNN8F8+xCOE1zooXiGbXtDFM2RTK1O5g/0QLxBEE/yX2HIHQ8U0teqblgR/In22iL8VEE3kI4pMC3ldcWEYlzvY5WiQYzWtk4JCKHJU0160tR89CReYwwkOplFuZwfldtYdqker2roQRboFKGWmiQpd5/m9W0JIkSJFihTZNuUHjEU4SvaMY7IAAAAASUVORK5CYII="
+                                    alt="google-meet--v1"
+                                  />
+                                  <p
+                                    style="
+                                      margin: 8px 0 0 0;
+                                      font-weight: bold;
+                                      color: #ff9500;
+                                      font-size: 14px;
+                                    "
+                                  >
+                                    PLATFORM
+                                  </p>
+                                  <p
+                                    style="
+                                      margin: 5px 0 0 0;
+                                      color: #555;
+                                      font-size: 14px;
+                                    "
+                                  >
+                                    {{PLATFORM_NAME}}
+                                  </p>
+                                </td>
+                              </tr>
+                            </table>
                           </td>
                         </tr>
                       </table>
@@ -249,6 +311,7 @@
               </td>
             </tr>
 
+            <!-- WHAT TO EXPECT SECTION -->
             <tr>
               <td class="mobile-padding" style="padding: 30px 40px">
                 <h3
@@ -260,7 +323,7 @@
                     padding-bottom: 5px;
                   "
                 >
-                  🔥 Agenda Highlights
+                  🌟 What to Expect in This Session
                 </h3>
                 <ul
                   style="
@@ -272,35 +335,100 @@
                   "
                 >
                   <li>
-                    Reviewing <strong>Job Vacancies</strong> available for Dec
-                    2025.
+                    Discover how QarirGenerator connects you with
+                    <strong
+                      >mentors, recruiters, and global opportunities</strong
+                    >.
                   </li>
-                  <li>Mastering the <strong>Job Tracker</strong> system.</li>
-                  <li>Building a stronger confidence & direction.</li>
+                  <li>
+                    Understand the
+                    <strong>academic framework and mentorship structure</strong>
+                    that will support your growth.
+                  </li>
+                  <li>
+                    Gain clarity on how to make the most of the
+                    <strong
+                      >resources, networks, and international pathways</strong
+                    >
+                    offered to you.
+                  </li>
+                  <li>
+                    Meet the team that will be accompanying you throughout your
+                    journey.
+                  </li>
                 </ul>
               </td>
             </tr>
 
+            <!-- PREPARATION REQUIREMENTS -->
+            <tr>
+              <td class="mobile-padding" style="padding: 0 40px 30px 40px">
+                <h3
+                  style="
+                    font-size: 18px;
+                    color: #111;
+                    border-bottom: 2px solid #ff9500;
+                    display: inline-block;
+                    padding-bottom: 5px;
+                  "
+                >
+                  📋 Before the Session
+                </h3>
+                <p
+                  style="
+                    font-size: 16px;
+                    color: #555;
+                    line-height: 1.8;
+                    margin-top: 20px;
+                  "
+                >
+                  Please prepare and send the following to
+                  <strong>academic@qarirgenerator.com</strong>:
+                </p>
+                <ol
+                  style="
+                    font-size: 16px;
+                    color: #555;
+                    line-height: 1.8;
+                    padding-left: 20px;
+                    margin-top: 10px;
+                  "
+                >
+                  <li>Your updated <strong>CV</strong> (in PDF format)</li>
+                  <li>The link to your <strong>LinkedIn profile</strong></li>
+                </ol>
+                <p
+                  style="
+                    font-size: 14px;
+                    color: #666;
+                    line-height: 1.6;
+                    margin-top: 15px;
+                    font-style: italic;
+                  "
+                >
+                  These materials will help us better understand your
+                  professional background and tailor the mentorship process to
+                  your goals.
+                </p>
+              </td>
+            </tr>
             <tr>
               <td align="center" style="padding-bottom: 40px">
                 <table border="0" cellspacing="0" cellpadding="0">
                   <tr>
                     <td
                       align="center"
-                      style="border-radius: 50px; background-color: #ff9500"
+                      style="border-radius: 50px; background-color: #ff9e16"
                     >
                       <a
-                        href="https://meet.google.com/mzn-pusi-gpq"
-                        target="_blank"
+                        href="https://wa.me/6285123887483/?text=Hi%20im%20${nama}%20ready%20to%20join%20the%20qarirGenerator%20and%20confirm%20my%20attendance!"
                         style="
                           font-size: 18px;
                           font-family: Helvetica, Arial, sans-serif;
                           color: #ffffff;
                           text-decoration: none;
-                          text-decoration: none;
                           border-radius: 50px;
                           padding: 16px 40px;
-                          border: 1px solid #4f46e5;
                           display: inline-block;
                           font-weight: bold;
                           box-shadow: 0 4px 6px rgba(79, 70, 229, 0.3);
@@ -311,40 +439,84 @@
                     </td>
                   </tr>
                 </table>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" style="padding-bottom: 40px">
+                <table border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td
+                      align="center"
+                      style="border-radius: 50px; background-color: #4cca59"
+                    >
+                      <a
+                        href="https://wa.me/6285123887483/?text=Hi%20im%20${nama}%20ready%20to%20join%20the%20qarirGenerator%20and%20confirm%20my%20attendance!"
+                        style="
+                          font-size: 18px;
+                          font-family: Helvetica, Arial, sans-serif;
+                          color: #ffffff;
+                          text-decoration: none;
+                          border-radius: 50px;
+                          padding: 16px 40px;
+                          display: inline-block;
+                          font-weight: bold;
+                          box-shadow: 0 4px 6px rgba(79, 70, 229, 0.3);
+                        "
+                      >
+                        CONFIRM ATTENDANCE
+                      </a>
+                    </td>
+                  </tr>
+                </table>
                 <p style="font-size: 12px; color: #999; margin-top: 15px">
-                  Please join 5 minutes early!
+                  Please confirm your attendance or request an alternative time
                 </p>
               </td>
             </tr>
 
+            <!-- CLOSING MESSAGE -->
+            <tr>
+              <td
+                class="mobile-padding"
+                style="padding: 0 40px 30px 40px; text-align: center"
+              >
+                <p
+                  style="
+                    font-size: 16px;
+                    line-height: 1.6;
+                    color: #555555;
+                    font-style: italic;
+                  "
+                >
+                  "Onboarding is not merely about information; it is about
+                  transformation. Come with an open mind, a willingness to
+                  learn, and the courage to dream beyond boundaries."
+                </p>
+              </td>
+            </tr>
+
+            <!-- FOOTER -->
             <tr>
               <td
                 style="
                   background-color: #ff9500;
                   padding: 30px;
                   text-align: center;
-                  color: #9ca3af;
                 "
               >
                 <p
                   style="
-                    font-weight: bolder;
                     color: white;
                     margin: 0;
                     font-size: 14px;
+                    font-weight: bold;
                   "
                 >
-                  Focused Mentorship Session with Merina
+                  The Academic Team - QarirGenerator
                 </p>
-                <p
-                  style="
-                    margin: 10px 0 0 0;
-                    font-weight: bolder;
-                    color: white;
-                    font-size: 12px;
-                  "
-                >
-                  Let’s build your job search strategy together.
+                <p style="margin: 10px 0 0 0; color: white; font-size: 12px">
+                  Questions? Contact us at
+                  <span style="color: white">academic@qarirgenerator.com</span>
                 </p>
               </td>
             </tr>

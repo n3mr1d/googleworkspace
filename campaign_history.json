@@ -54,5 +54,12 @@
     "total": 9,
     "success": 9,
     "failed": 0
+  },
+  {
+    "timestamp": "2025-11-28T14:07:01.135Z",
+    "session": "Invitation: HR Mentorship and Interview Simulation Session DMC",
+    "total": 3,
+    "success": 3,
+    "failed": 0
   }
 ]

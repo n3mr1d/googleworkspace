@@ -26,7 +26,7 @@ const CONFIG = {
 
 // ==================== EMAIL DATA ====================
 const EMAIL_CAMPAIGN = {
-  subject: "Invitation: HR Mentorship and Interview Simulation Session",
+  subject: "Invitation: Techinal",
   recipients: [
     { email: "osama.work54@gmail.com", nama: "Osama", group: "1" },
     { email: "brainfreeze289@gmail.com", nama: "Yulistina", group: "2" },
