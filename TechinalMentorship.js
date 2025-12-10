@@ -34,8 +34,32 @@ const CONFIG = {
 const EMAIL_CAMPAIGN = {
   subject: "Invitation: Technical Mentorship with Tehreem from Dubai",
   recipients: [
-    { email: "osama.work54@gmail.com", nama: "Osama", group: "1" },
-    { email: "brainfreeze289@gmail.com", nama: "Yulistina", group: "2" },
+    { email: "bepekerja@gmail.com", nama: "Bintang Pamungkas", group: "1" },
+    {
+      email: "soranatascincinadi@gmail.com",
+      nama: "Sorantas Cincinadi",
+      group: "1",
+    },
+    { email: "angelshroom666@gmail.com", nama: "Anggara", group: "1" },
+    {
+      email: "edikresnha@gmail.com",
+      nama: "Nashrullah Edikreshna",
+      group: "1",
+    },
+    {
+      email: "malikarintya12@gmail.com",
+      nama: "Malika Ade Arintya",
+      group: "1",
+    },
+    { email: "mirzasufikusuma@gmail.com", nama: "Mirza Sufi", group: "1" },
+    {
+      email: "Immanuelsdjs@gmail.com",
+      nama: "Immanuel Sultan Dengganjaya Simanjuntak",
+      group: "1",
+    },
+    { email: "jimmy.setiawan86@gmail.com", nama: "Jimmy Setiawan", group: "1" },
+    { email: "adit123adit123@gmail.com", nama: "Aditiya Irdam", group: "1" },
+    { email: "fazarizqi77@gmail.com", nama: "Faza Rizqi Ihsan", group: "1" },
   ],
 };
 
@@ -140,7 +164,7 @@ body { width: 100% !important; margin: 0; padding: 0; background: #f4f4f7; font-
 
             <tr>
               <td align="center" class="banner-td" style="background-color: #ff9500; background-image: url('https://qarirgenerator.com/assets/gambar_perusahaan/QarirGenerator_Banner.png'); background-repeat: no-repeat; background-size: cover; background-position: center center; padding: 113px 10px; width: 100%; height: 100%;">
-               <h1 style="color: #ffffff; font-size: 30px; margin: 0; font-weight: 800;">Digital Marketing Mentorship</h1>
+               <h1 style="color: #ffffff; font-size: 30px; margin: 0; font-weight: 800;">${CONFIG.PROGRAM}</h1>
       <p style="color:white; margin: 10px 0 0 0; font-size: 18px;">Category 1 – CV Review & Job Applications</p>
               </td>
             </tr>
@@ -223,12 +247,28 @@ body { width: 100% !important; margin: 0; padding: 0; background: #f4f4f7; font-
 <td align="center" style="padding-bottom: 15px;">
 <table border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td align="center" style="border-radius: 50px; background: linear-gradient(135deg, #ff9500 0%, #ff6b00 100%); box-shadow: 0 4px 12px rgba(255, 149, 0, 0.4);">
-<a href="${CONFIG.MEETLINK}" target="_blank" style="font-size: 18px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; border-radius: 50px; padding: 18px 45px; display: inline-block; font-weight: bold;">
-<img width="22" style="margin-bottom:6px"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADI0lEQVR4nO3Zb0gTcRgH8EUE1es56UW9iuqFd3Ob1iJlG5lu7rfdzRCEkMQ2CQ0NLXpjaqhNKhFCTS0QMSxK78wCGTPusDIdvgnsVcJCNCTNYRqIWzxxLZNy/zw73cV94fvqXtzvw8HD3XMymRQpUqRIEUMgN3e3r07pXGUx9z8vg1GrDHYVRrT7BEdMa1O754tVk34WA8HKJI3BuGaPoIiZk6mwUKFaEhTCYhBg8Lzwh5HtstBEgZkm0nkjuPquqQVF+IO9GeosaADtRxT5FNEkmCnSyxuxfZCkW3+fJavPdsBMEx4OESzxmTdipyAmmsAQTXxcR8QICYfYCQiiSBOiyMU/ETFAIiG2G2KmyDIzTXzfiIgCiYb4ObXK1ctCQ74x2B0zRbaEBkSBxILg+qU8bVZIxLwbh9JH+onIiAiQrpzLba+yzk65ss/5BiyFgX6rHdb63FKwMmTMm/Pk5C9Mt1dC4J2DV/3DKRER3kEcrE4V2O7r53lDDjZMew81zEC01jOLwDf+0aywiPFnStDVqgG/rgZjm2FJlJC+HiVoqoMIroYWvV9UkFUGg+ZO5W8A/qtpzXoQDeTrSwzK7iZvQOBignxyYZB3WxUSgYsF8v4FDpn14RG4GCAuWgfHa8IDcLFAbD25oKzWiB9S6CqCzJ5sUNemih+CaBJMTyyQ0qAVPwRxX3i9BGgbT4kfgrhSJKS3Gv4DCB2s4UEGKKvWh0Bai8EvSgjXMw9NkHwjOATS753m/9KYWPxmWFEyMqW4NOpLLB0LJJZ6YK2K0rEVRcnbuSNXPAsXe4ag8nU1r+YM5EY8nPExAk3dCdB1ZPB/jZfbWW+Cg4Vo1Tg7ZqPfhH+ze62Q0W2cEBySVNe0LCQEcZh+K/9P3VghuLNRUATiRjNN8F8+xCOE1zooXiGbXtDFM2RTK1O5g/0QLxBEE/yX2HIHQ8U0teqblgR/In22iL8VEE3kI4pMC3ldcWEYlzvY5WiQYzWtk4JCKHJU0160tR89CReYwwkOplFuZwfldtYdqker2roQRboFKGWmiQpd5/m9W0JIkSJFihTZNuUHjEU4SvaMY7IAAAAASUVORK5CYII=" alt="google-meet--v1">
- JOIN MEETING NOW
-</a>
+<td align="center" style="padding: 10px 0;">
+  <a href="${CONFIG.MEETLINK}" target="_blank"
+     style="
+       font-size: 18px;
+       font-family: Arial, sans-serif;
+       color: #ffffff;
+       text-decoration: none;
+       display: inline-flex;
+       align-items: center;
+       gap: 8px;
+       font-weight: bold;
+       padding: 18px 45px;
+       border-radius: 50px;
+       background: linear-gradient(135deg, #ff9500 0%, #ff6b00 100%);
+       box-shadow: 0 4px 12px rgba(255, 149, 0, 0.4);
+     ">
+    <img width="22" height="22" alt="Join via Google Meet" style="display:inline-block; vertical-align:middle;"
+      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADI0lEQVR4nO3Zb0gTcRgH8EUE1es56UW9iuqFd3Ob1iJlG5lu7rfdzRCEkMQ2CQ0NLXpjaqhNKhFCTS0QMSxK78wCGTPusDIdvgnsVcJCNCTNYRqIWzxxLZNy/zw73cV94fvqXtzvw8HD3XMymRQpUqRIEUMgN3e3r07pXGUx9z8vg1GrDHYVRrT7BEdMa1O754tVk34WA8HKJI3BuGaPoIiZk6mwUKFaEhTCYhBg8Lzwh5HtstBEgZkm0nkjuPquqQVF+IO9GeosaADtRxT5FNEkmCnSyxuxfZCkW3+fJavPdsBMEx4OESzxmTdipyAmmsAQTXxcR8QICYfYCQiiSBOiyMU/ETFAIiG2G2KmyDIzTXzfiIgCiYb4ObXK1ctCQ74x2B0zRbaEBkSBxILg+qU8bVZIxLwbh9JH+onIiAiQrpzLba+yzk65ss/5BiyFgX6rHdb63FKwMmTMm/Pk5C9Mt1dC4J2DV/3DKRER3kEcrE4V2O7r53lDDjZMew81zEC01jOLwDf+0aywiPFnStDVqgG/rgZjm2FJlJC+HiVoqoMIroYWvV9UkFUGg+ZO5W8A/qtpzXoQDeTrSwzK7iZvQOBignxyYZB3WxUSgYsF8v4FDpn14RG4GCAuWgfHa8IDcLFAbD25oKzWiB9S6CqCzJ5sUNemih+CaBJMTyyQ0qAVPwRxX3i9BGgbT4kfgrhSJKS3Gv4DCB2s4UEGKKvWh0Bai8EvSgjXMw9NkHwjOATS753m/9KYWPxmWFEyMqW4NOpLLB0LJJZ6YK2K0rEVRcnbuSNXPAsXe4ag8nU1r+YM5EY8nPExAk3dCdB1ZPB/jZfbWW+Cg4Vo1Tg7ZqPfhH+ze62Q0W2cEBySVNe0LCQEcZh+K/9P3VghuLNRUATiRjNN8F8+xCOE1zooXiGbXtDFM2RTK1O5g/0QLxBEE/yX2HIHQ8U0teqblgR/In22iL8VEE3kI4pMC3ldcWEYlzvY5WiQYzWtk4JCKHJU0160tR89CReYwwkOplFuZwfldtYdqker2roQRboFKGWmiQpd5/m9W0JIkSJFihTZNuUHjEU4SvaMY7IAAAAASUVORK5CYII=">
+    JOIN MEETING NOW
+  </a>
 </td>
+
 </tr>
 </table>
 </td>
@@ -267,7 +307,7 @@ body { width: 100% !important; margin: 0; padding: 0; background: #f4f4f7; font-
   <tr>
               <td style="background-color: #ff9500; padding: 30px; text-align: center;">
                 <p style="font-weight: bolder; color: white; margin: 0; font-size: 14px;">
-                  HR Mentorship Session with Merina
+                  CV Review & Job Applications with ${CONFIG.MENTOR}  
                 </p>
                 <p style="margin: 10px 0 0 0; font-weight: bolder; color: white; font-size: 12px;">
                   The Academic Team - QarirGenerator

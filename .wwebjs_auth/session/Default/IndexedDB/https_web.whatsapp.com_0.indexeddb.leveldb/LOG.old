@@ -1,0 +1,21 @@
+2025/12/10-16:40:17.406 41c6 Reusing MANIFEST /home/idrift/Project/github/googleworkspace/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/10-16:40:17.407 41c6 Recovering log #174
+2025/12/10-16:40:17.408 41c6 Reusing old log /home/idrift/Project/github/googleworkspace/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000174.log 
+2025/12/10-16:40:17.409 41c6 Delete type=2 #173
+2025/12/10-16:40:22.314 4203 Level-0 table #179: started
+2025/12/10-16:40:22.369 4203 Level-0 table #179: 28422 bytes OK
+2025/12/10-16:40:22.446 4203 Delete type=0 #174
+2025/12/10-16:40:22.447 4203 Manual compaction at level-0 from '\x00E\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00F\x00\x00\x00' @ 0 : 0; will stop at '\x00E\x00\x00\x05' @ 175571 : 1
+2025/12/10-16:40:22.447 4203 Compacting 1@0 + 1@1 files
+2025/12/10-16:40:22.813 4203 Generated table #180@0: 78478 keys, 1522821 bytes
+2025/12/10-16:40:22.813 4203 Compacted 1@0 + 1@1 files => 1522821 bytes
+2025/12/10-16:40:22.914 4203 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/10-16:40:22.915 4203 Manual compaction at level-0 from '\x00E\x00\x00\x05' @ 175571 : 1 .. '\x00F\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/10-16:41:04.413 41ef Compacting 1@1 + 1@2 files
+2025/12/10-16:41:04.590 41ef Generated table #181@1: 28324 keys, 1111522 bytes
+2025/12/10-16:41:04.590 41ef Compacted 1@1 + 1@2 files => 1111522 bytes
+2025/12/10-16:41:04.667 41ef compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/10-16:41:04.668 41ef Delete type=2 #118
+2025/12/10-16:41:04.668 41ef Delete type=2 #176
+2025/12/10-16:41:04.668 41ef Delete type=2 #179
+2025/12/10-16:41:04.668 41ef Delete type=2 #180

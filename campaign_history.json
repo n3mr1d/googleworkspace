@@ -61,5 +61,68 @@
     "total": 3,
     "success": 3,
     "failed": 0
+  },
+  {
+    "timestamp": "2025-12-02T14:45:11.691Z",
+    "session": "Invitation: HR Mentorship and Interview Simulation Category 1 DSC + AI",
+    "total": 3,
+    "success": 3,
+    "failed": 0
+  },
+  {
+    "timestamp": "2025-12-02T14:53:15.860Z",
+    "session": "Invitation: HR Mentorship and Interview Simulation Category 1 DSC + AI",
+    "total": 3,
+    "success": 3,
+    "failed": 0
+  },
+  {
+    "timestamp": "2025-12-02T14:54:29.413Z",
+    "session": "Invitation: HR Mentorship and Interview Simulation Category 1 DSC + AI",
+    "total": 1,
+    "success": 1,
+    "failed": 0
+  },
+  {
+    "timestamp": "2025-12-02T15:19:12.760Z",
+    "session": "Invitation: HR Mentorship and Interview Simulation Category 1 DSC + AI",
+    "total": 16,
+    "success": 16,
+    "failed": 0
+  },
+  {
+    "timestamp": "2025-12-05T16:08:37.336Z",
+    "session": "Invitation: HR Mentorship and Interview Simulation Category 1 DSC + AI",
+    "total": 3,
+    "success": 3,
+    "failed": 0
+  },
+  {
+    "timestamp": "2025-12-05T16:17:10.576Z",
+    "session": "Invitation: HR Mentorship and Interview Simulation Category 1 DSC + AI",
+    "total": 3,
+    "success": 3,
+    "failed": 0
+  },
+  {
+    "timestamp": "2025-12-05T16:35:18.721Z",
+    "session": "Invitation: HR Mentorship and Interview Simulation Category 1 DSC + AI",
+    "total": 28,
+    "success": 28,
+    "failed": 0
+  },
+  {
+    "timestamp": "2025-12-06T06:12:46.830Z",
+    "session": "Invitation: HR Mentorship & Job Interview Simulation - DSC AI Category 1",
+    "total": 18,
+    "success": 18,
+    "failed": 0
+  },
+  {
+    "timestamp": "2025-12-07T06:28:41.068Z",
+    "session": "Invitation: HR Mentorship and Interview Simulation Category 1 DSC + AI",
+    "total": 26,
+    "success": 26,
+    "failed": 0
   }
 ]

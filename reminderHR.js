@@ -12,13 +12,14 @@ const CONFIG = {
   TOKEN_PATH: path.join(process.cwd(), "token.json"),
   CREDENTIALS_PATH: path.join(process.cwd(), "credentials.json"),
   SENDER_EMAIL: "academic@qarirgenerator.com",
-
+  IMPORTANT_NOTE: "14:00 - 14.15",
   // Rate limiting & batch settings
   BATCH_SIZE: 10,
   DELAY_BETWEEN_EMAILS: 1000,
   DELAY_BETWEEN_BATCHES: 5000,
   MAX_RETRIES: 3,
-
+  OPEN_TIME: "14:00 - 14.15",
+  END_TIME: "17.40 - 17.55 ",
   // Logging
   LOG_FILE: path.join(process.cwd(), "email_log.json"),
   ERROR_LOG: path.join(process.cwd(), "error_log.json"),
@@ -31,37 +32,72 @@ const CONFIG = {
 // ==================== CAMPAIGN CONFIGURATION ====================
 const CAMPAIGN = {
   SESSION_TITLE:
-    "Invitation: HR Mentorship and Interview Simulation Session DMC",
+    "Invitation: HR Mentorship and Interview Simulation Category 1 DSC + AI",
   TRAINER_NAME: "Merina",
   PLATFORM_NAME: "Google Meet",
-  PLATFORM_LINK: "meet.google.com/wdv-vyzo-moc",
-  ACCESS_PIN: "869 420 290#",
-  DATE: "Friday, 28 Nov 2025",
-  TIME: "20:30 - 22:15 WIB",
+  PLATFORM_LINK: "meet.google.com/zxm-qnui-kgp",
+  ACCESS_PIN: "461 900 337#",
+  DATE: "Sunday, December 7 2025",
+  TIME: "14:00 – 17.25",
   STYLE: "Email",
   AUDIENCE: "Students",
 
-  CALL_TO_ACTION: "JOIN MEETING TODAY",
+  CALL_TO_ACTION: "JOIN MEETING",
 
   GROUPS: [
     {
       group_name: "Group 1",
-      time_slot: "20:45 - 21:10 WIB",
-      members: ["Jimmy Setiawan", "Malika Ade Arintya", "Aditya Irdam"],
+      time_slot: "14.15  - 14.40 WIB",
+      members: ["Nur Afni", "Fransiscus", "Hartanto", "Ario"],
       mentor: "Merina",
       color: "#3b82f6",
     },
     {
       group_name: "Group 2",
-      time_slot: "21:15 - 21:45 WIB",
-      members: ["Faza Rizqi Ihsan", "Bintang Pamungkas", "Sorantas Cincinadi"],
+      time_slot: "14.40 - 15.05 WIB",
+      members: ["Ifan", "Kholidin", "Arli", "Louisa"],
       mentor: "Merina",
       color: "#10b981",
     },
     {
       group_name: "Group 3",
-      time_slot: "21:45 - 22:00 WIB",
-      members: ["Mirza Sufi", "Anggara", "Nasrullah Noor Edikresnha"],
+      time_slot: "15.05 - 15.30 WIB",
+      members: ["Zamroni", "Husnul", "Maysa", "Kamal"],
+      mentor: "Merina",
+      color: "#fb542b",
+    },
+    {
+      group_name: "Break",
+      time_slot: "15.30 - 16.00 WIB",
+      members: [""],
+      mentor: "Merina",
+      color: "#ffff00",
+    },
+    {
+      group_name: "Group 4",
+      time_slot: "16.00-16.25 WIB",
+      members: ["Jonathan", "Kevin", "Krina", "Lazuardi"],
+      mentor: "Merina",
+      color: "#10b981",
+    },
+    {
+      group_name: "Group 5",
+      time_slot: "16.25-16.50 WIB",
+      members: ["Milzon", "Arif", "Petra", "Nabih"],
+      mentor: "Merina",
+      color: "#fb542b",
+    },
+    {
+      group_name: "Group 6",
+      time_slot: "16.50-17.15 WIB",
+      members: ["Narendra", "Nikodemus", "Nurwidy", "Sulianto"],
+      mentor: "Merina",
+      color: "#ffff00",
+    },
+    {
+      group_name: "Group 7",
+      time_slot: "17.15-17.40 WIB",
+      members: ["Rizki", "Rizqi", "Vira", "Darshan"],
       mentor: "Merina",
       color: "#10b981",
     },
@@ -334,7 +370,7 @@ text-decoration:none;
                 <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-top: 20px;">
                   <tr>
                     <td style="padding: 15px; background-color: #fef3c7; border-left: 4px solid #f59e0b; border-radius: 8px; margin-bottom: 10px;">
-                      <p style="margin: 0 0 5px 0; font-weight: bold; color: #92400e;">⏰ 20:30 - 20:45 WIB</p>
+                      <p style="margin: 0 0 5px 0; font-weight: bold; color: #92400e;">⏰ ${CONFIG.OPEN_TIME} WIB</p>
                       <p style="margin: 0; font-size: 14px; color: #78350f;">
                         <strong>Introduction for All</strong><br/>
                         Interview tips, common mistakes, and answer structuring guidance.
@@ -358,7 +394,7 @@ text-decoration:none;
                }).join("")}
                   <tr>
                     <td style="padding: 15px; background-color: #fef3c7; border-left: 4px solid #f59e0b; border-radius: 8px;">
-                      <p style="margin: 0 0 5px 0; font-weight: bold; color: #92400e;">⏰ 22:00 - 22:15 WIB</p>
+                      <p style="margin: 0 0 5px 0; font-weight: bold; color: #92400e;">⏰ ${CONFIG.END_TIME} WIB</p>
                       <p style="margin: 0; font-size: 14px; color: #78350f;">
                         <strong>Closing for All</strong><br/>
                         Shared reflection and key takeaways.
@@ -368,7 +404,37 @@ text-decoration:none;
                 </table>
               </td>
             </tr>
+  <tr><td style="padding:20px 40px 30px 40px">
+    <table width="100%" style="background:#fff7d6; border-left:4px solid #fbbf24; border-radius:8px">
+      <tr><td style="padding:18px">
+        <p style="margin:0; font-weight:700; color:#92400e;">📌 Required Preparation</p>
+        <ul style="font-size:14px; color:#7a4b0b; line-height:1.6; margin-top:10px;">
+          <li>Send your latest CV before the session</li>
+          <li>Share your updated LinkedIn profile</li>
+          <li>Prepare roles/companies you aim to apply for</li>
+          <li>Highlight any areas you want focused feedback on</li>
+        </ul>
+      </td></tr>
+    </table>
+  </td></tr>
 
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td align="center" style="border-radius: 50px; background-color: #4285f4; box-shadow: 0 4px 12px rgba(66, 133, 244, 0.3);">
+<a href="https://forms.gle/hGtTKdk2Mv755vdQA" target="_blank" style="font-size: 16px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; border-radius: 50px; padding: 16px 40px; display: inline-block; font-weight: bold;">
+📝 SUBMIT CV & LINKEDIN PROFILE
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
             <!-- CTA BUTTON -->
             <tr>
               <td align="center" style="padding: 30px 40px">
@@ -406,7 +472,25 @@ text-decoration:none;
   </td>
 </tr>
 
-            
+            <!-- Important Note -->
+<tr>
+  <td style="padding:20px 40px 10px 40px">
+    <table width="100%" style="background:#eef6ff; border-left:4px solid red; border-radius:8px">
+      <tr>
+        <td style="padding:18px;">
+          <p style="margin:0; font-weight:700; font-size:14px; color:#1e40af;">
+            🔔 Important Note About Attendance
+          </p>
+          <p style="margin:10px 0 0 0; font-size:14px; line-height:1.6; color:#1e3a8a;">
+            To ensure you receive the maximum benefit from this Mentorship Session, please join on time at the scheduled start ${CONFIG.IMPORTANT_NOTE}. 
+            Late arrivals may miss crucial instructions or not be admitted once the session begins.
+          </p>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+
             <!-- FOOTER -->
             <tr>
               <td  style="background-color: #ff9500; padding: 30px; text-align: center;">
